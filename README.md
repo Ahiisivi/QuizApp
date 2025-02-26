@@ -1,2 +1,0 @@
-# QuizApp
-Quiz app assignment
