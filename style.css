@@ -9,3 +9,64 @@ body {
     background-color: #f4f4f4;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+}
+
+#results {
+    color: green;
+}
+
+#submit-quiz {
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin:auto;
+    display: block;
+}
+
+#submit-quiz:hover {
+    background-color: #45a049;
+}
+
+.quiz-set {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    border: 2px solid #4CAF50;
+    width: 50%;
+    height: 90vh;
+    overflow-y: auto;
+    
+}
+
+.quiz-set p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+label {
+    color: #333;
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width: 768px) {
+    .quiz-set {
+        width: 100vw;
+        height: 100vh;
+    }
+}
